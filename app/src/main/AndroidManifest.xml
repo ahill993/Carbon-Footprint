@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".userInput2"></activity>
         <activity android:name=".UserInput" />
-        <activity android:name=".ResultsPage" />
+        <activity android:name=".ResultsPage" android:exported="true"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
