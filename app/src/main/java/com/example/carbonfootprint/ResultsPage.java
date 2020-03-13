@@ -15,7 +15,6 @@ import com.github.mikephil.charting.charts.PieChart;
 import java.util.Hashtable;
 import java.util.Iterator;
 
-import static java.lang.Integer.valueOf;
 
 public class ResultsPage extends AppCompatActivity {
 
@@ -45,8 +44,7 @@ public class ResultsPage extends AppCompatActivity {
     }
 
     private void addPie(Hashtable ht, int screenwidth, int screenheight) {
-        PieChart pie = new PieChart(this);
-        pie.setData(ChartFiller.fillPieChart(ht, this));
+        PieChart pie = ChartBuilder.buildPieChart(ht,this);
         pie.setMinimumWidth(screenwidth);
         pie.setMinimumHeight(screenheight / 2);
 
@@ -55,8 +53,7 @@ public class ResultsPage extends AppCompatActivity {
     }
 
     private void addBar(Hashtable ht, int screenwidth, int screenheight) {
-        BarChart bar = new BarChart(this);
-        bar.setData(ChartFiller.fillBarChart(ht, this));
+        BarChart bar = ChartBuilder.buildBarChart(ht,this);
         bar.setMinimumWidth(screenwidth);
         bar.setMinimumHeight(screenheight / 2);
         LinearLayout container = findViewById(R.id.layout);
