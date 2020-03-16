@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserInput3"
+    tools:context=".Input3"
     android:background="#000000">
 
     <ScrollView
@@ -210,12 +210,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
-                android:layout_marginBottom="70dp"
-                android:buttonTint="@color/colorPrimary"
-                android:onClick="results"
-                android:text="@string/results"
                 android:layout_marginEnd="50dp"
-                android:layout_marginRight="50dp" />
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="70dp"
+                android:background="@color/colorPrimary"
+                android:onClick="results"
+                android:text="@string/results" />
 
         </LinearLayout>
 

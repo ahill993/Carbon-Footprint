@@ -16,7 +16,7 @@ public class userInput2 extends AppCompatActivity {
 
     public void facilityPage(View view)
     {
-        Intent facility = new Intent(this, UserInput3.class);
+        Intent facility = new Intent(this, Input3.class);
         startActivity(facility);
     }
 }
