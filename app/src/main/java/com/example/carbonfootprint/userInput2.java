@@ -14,7 +14,7 @@ public class userInput2 extends AppCompatActivity {
         setContentView(R.layout.activity_user_input2);
     }
 
-    public void facility(View view)
+    public void facilityPage(View view)
     {
         Intent facility = new Intent(this, UserInput3.class);
         startActivity(facility);

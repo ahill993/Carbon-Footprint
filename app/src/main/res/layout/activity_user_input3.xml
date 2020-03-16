@@ -32,21 +32,21 @@
 
             <TextView
                 android:id="@+id/question7"
-                android:layout_width="wrap_content"
+                android:layout_width="310dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="55dp"
-                android:layout_marginTop="55dp"
+                android:layout_marginTop="40dp"
                 android:text="@string/question7"
                 android:textColor="#FFFFFF"
                 android:layout_marginLeft="55dp" />
 
             <RadioGroup
                 android:id="@+id/radioGroup7"
-                android:layout_width="327dp"
-                android:layout_height="217dp"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
                 android:layout_marginStart="55dp"
                 android:layout_marginLeft="55dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="55dp"
                 android:layout_marginRight="55dp">
 
@@ -93,7 +93,7 @@
 
             <TextView
                 android:id="@+id/question8"
-                android:layout_width="wrap_content"
+                android:layout_width="310dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="55dp"
                 android:text="@string/question8"
@@ -102,11 +102,11 @@
 
             <RadioGroup
                 android:id="@+id/radioGroup8"
-                android:layout_width="333dp"
-                android:layout_height="212dp"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
                 android:layout_marginStart="55dp"
                 android:layout_marginLeft="55dp"
-                android:layout_marginTop="23dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="55dp"
                 android:layout_marginRight="55dp">
 
@@ -156,7 +156,7 @@
 
             <TextView
                 android:id="@+id/question9"
-                android:layout_width="wrap_content"
+                android:layout_width="310dp"
                 android:layout_height="wrap_content"
                 android:text="@string/question9"
                 android:textColor="#FFFFFF"
@@ -165,12 +165,11 @@
 
             <RadioGroup
                 android:id="@+id/radioGroup9"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
                 android:layout_marginStart="55dp"
-                android:layout_marginTop="23dp"
-                android:layout_marginEnd="55dp"
-                android:layout_marginBottom="55dp">
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="55dp">
 
                 <RadioButton
                     android:id="@+id/answer41"
@@ -204,13 +203,6 @@
                     android:text="@string/answer44"
                     android:textColor="#FFFFFF" />
 
-                <RadioButton
-                    android:id="@+id/answer45"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:buttonTint="@color/colorPrimary"
-                    android:text="@string/answer45"
-                    android:textColor="#FFFFFF" />
             </RadioGroup>
 
             <Button
@@ -222,8 +214,8 @@
                 android:buttonTint="@color/colorPrimary"
                 android:onClick="results"
                 android:text="@string/results"
-                android:layout_marginEnd="70dp"
-                android:layout_marginRight="70dp" />
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp" />
 
         </LinearLayout>
 

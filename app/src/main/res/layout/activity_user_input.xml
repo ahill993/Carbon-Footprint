@@ -32,21 +32,21 @@
 
             <TextView
                 android:id="@+id/question1"
-                android:layout_width="wrap_content"
+                android:layout_width="310dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="55dp"
-                android:layout_marginTop="55dp"
-                android:text="@string/question1"
-                android:textColor="#FFFFFF"
-                android:layout_marginLeft="55dp" />
-
-            <RadioGroup
-                android:id="@+id/radioGroup"
-                android:layout_width="327dp"
-                android:layout_height="217dp"
                 android:layout_marginStart="55dp"
                 android:layout_marginLeft="55dp"
                 android:layout_marginTop="40dp"
+                android:text="@string/question1"
+                android:textColor="#FFFFFF" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="55dp"
                 android:layout_marginRight="55dp">
 
@@ -93,7 +93,7 @@
 
             <TextView
                 android:id="@+id/question2"
-                android:layout_width="wrap_content"
+                android:layout_width="310dp"
                 android:layout_height="wrap_content"
                 android:text="@string/question2"
                 android:textColor="#FFFFFF"
@@ -102,11 +102,11 @@
 
             <RadioGroup
                 android:id="@+id/radioGroup2"
-                android:layout_width="333dp"
-                android:layout_height="212dp"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
                 android:layout_marginStart="55dp"
                 android:layout_marginLeft="55dp"
-                android:layout_marginTop="23dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="55dp"
                 android:layout_marginRight="55dp">
 
@@ -156,7 +156,7 @@
 
             <TextView
                 android:id="@+id/question3"
-                android:layout_width="wrap_content"
+                android:layout_width="310dp"
                 android:layout_height="wrap_content"
                 android:text="@string/question3"
                 android:textColor="#FFFFFF"
@@ -165,10 +165,10 @@
 
             <RadioGroup
                 android:id="@+id/radioGroup3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
                 android:layout_marginStart="55dp"
-                android:layout_marginTop="23dp"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="55dp"
                 android:layout_marginBottom="55dp">
 
@@ -210,6 +210,14 @@
                     android:layout_height="wrap_content"
                     android:buttonTint="@color/yellow"
                     android:text="@string/answer15"
+                    android:textColor="#FFFFFF" />
+
+                <RadioButton
+                    android:id="@+id/answer120"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/yellow"
+                    android:text="@string/answer"
                     android:textColor="#FFFFFF" />
             </RadioGroup>
 
