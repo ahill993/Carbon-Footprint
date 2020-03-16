@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.widget.LinearLayout;
-import android.widget.TableLayout;
-import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.github.mikephil.charting.charts.BarChart;
@@ -28,16 +26,17 @@ public class ResultsPage extends AppCompatActivity {
         int screenheight = displayMetrics.heightPixels;
         int screenwidth = displayMetrics.widthPixels;
 
-        Hashtable<String, Integer> emissionStats = new Hashtable();
-        emissionStats.put("Car", 100);
-        emissionStats.put("Plane", 200);
-        emissionStats.put("Volcano Lair", 50);
-        emissionStats.put("Mobile Apps", 75);
+        EmissionCalculatorTable.initialise();
+        EmissionCalculatorTable.calculateAndRecord("type_car",100.0f);
+        EmissionCalculatorTable.calculateAndRecord("type_plane", 40.0f);
+        EmissionCalculatorTable.calculateAndRecord("type_computer",400.0f);
+        EmissionCalculatorTable.calculateAndRecord("type_train",300.0f);
+
+        Hashtable emissionStats = EmissionCalculatorTable.getEmissionTable();
 
         addPie(emissionStats, screenwidth, screenheight);
         addBar(emissionStats, screenwidth, screenheight);
         addTable(emissionStats, screenwidth, screenheight);
-
         addTotal(emissionStats);
 
 
@@ -60,32 +59,17 @@ public class ResultsPage extends AppCompatActivity {
         container.addView(bar);
     }
 
-    private void addTable(Hashtable<String, Integer> ht, int screenwidth, int screenheight) {
-        TableLayout table = new TableLayout(this);
-        Iterator<String> iterator = ht.keySet().iterator();
-        while (iterator.hasNext()) {
-            String key = iterator.next();
-            Integer value = ht.get(key);
-            TableRow row = new TableRow(this);
-            TextView label = new TextView(this);
-            TextView number = new TextView(this);
-            label.setText(key);
-
-            number.setText(value.toString());
-            row.addView(label);
-            row.addView(number);
-            table.addView(row);
-        }
+    private void addTable(Hashtable<String, Float> ht, int screenwidth, int screenheight) {
         LinearLayout container = findViewById(R.id.layout);
-        container.addView(table);
+        container.addView(ChartBuilder.buildTable(ht,this));
     }
 
-    private void addTotal(Hashtable<String, Integer> ht) {
+    private void addTotal(Hashtable<String, Float> ht) {
         double n = 0;
         Iterator<String> iterator = ht.keySet().iterator();
         while (iterator.hasNext()) {
             String key = iterator.next();
-            Integer value = ht.get(key);
+            Float value = ht.get(key);
             n = n + value;
         }
         TextView label = findViewById(R.id.textTotal);
