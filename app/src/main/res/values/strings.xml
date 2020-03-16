@@ -19,10 +19,13 @@
     <string name="answer8">Answer 8</string>
     <string name="answer9">Answer 9</string>
     <string name="answer10">Answer 10</string>
+
     <string name="type_car">Car travel</string>
     <string name="type_plane">Air travel</string>
     <string name="type_computer">PC use</string>
     <string name="type_train">Rail travel</string>
+    <string name="type_phone">Mobile phone</string>
+    <string name="type_air_conditioning">Air conditioning</string>
 
     <string name="question3">Question 3</string>
     <string name="answer11">Answer 11</string>
@@ -79,9 +82,5 @@
     <string name="results">Results</string>
 
     <string name="home">Home</string>
-    <string name="type_car">Car travel</string>
-    <string name="type_plane">Air travel</string>
-    <string name="type_computer">PC use</string>
-    <string name="type_train">Rail travel</string>
 
 </resources>
