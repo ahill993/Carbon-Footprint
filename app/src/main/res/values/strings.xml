@@ -4,18 +4,81 @@
     <string name="appInfo">Answer the following questions to
                             \ncalculate your carbon footprint on
                             \ncampus at the University of Strathclyde</string>
+
+    <string name="travelTitle">Travel</string>
     <string name="question1">Question 1</string>
     <string name="answer1">Answer 1</string>
     <string name="answer2">Answer 2</string>
     <string name="answer3">Answer 3</string>
     <string name="answer4">Answer 4</string>
     <string name="answer5">Answer 5</string>
+
     <string name="question2">Question 2</string>
     <string name="answer6">Answer 6</string>
     <string name="answer7">Answer 7</string>
     <string name="answer8">Answer 8</string>
     <string name="answer9">Answer 9</string>
     <string name="answer10">Answer 10</string>
+    <string name="type_car">Car travel</string>
+    <string name="type_plane">Air travel</string>
+    <string name="type_computer">PC use</string>
+    <string name="type_train">Rail travel</string>
+
+    <string name="question3">Question 3</string>
+    <string name="answer11">Answer 11</string>
+    <string name="answer12">Answer 12</string>
+    <string name="answer13">Answer 13</string>
+    <string name="answer14">Answer 14</string>
+    <string name="answer15">Answer 15</string>
+
+    <string name="next">Next</string>
+
+    <string name="electricTitle">Electronic Devices</string>
+    <string name="question4">Question 4</string>
+    <string name="answer16">Answer 16</string>
+    <string name="answer17">Answer 17</string>
+    <string name="answer18">Answer 18</string>
+    <string name="answer19">Answer 19</string>
+    <string name="answer20">Answer 20</string>
+
+    <string name="question5">Question 5</string>
+    <string name="answer21">Answer 21</string>
+    <string name="answer22">Answer 22</string>
+    <string name="answer23">Answer 23</string>
+    <string name="answer24">Answer 24</string>
+    <string name="answer25">Answer 25</string>
+
+    <string name="question6">Question 6</string>
+    <string name="answer26">Answer 26</string>
+    <string name="answer27">Answer 27</string>
+    <string name="answer28">Answer 28</string>
+    <string name="answer29">Answer 29</string>
+    <string name="answer30">Answer 30</string>
+
+    <string name="facilitiesTitle">On Campus</string>
+    <string name="question7">Question 7</string>
+    <string name="answer31">Answer 31</string>
+    <string name="answer32">Answer 32</string>
+    <string name="answer33">Answer 33</string>
+    <string name="answer34">Answer 34</string>
+    <string name="answer35">Answer 35</string>
+
+    <string name="question8">Question 8</string>
+    <string name="answer36">Answer 36</string>
+    <string name="answer37">Answer 37</string>
+    <string name="answer38">Answer 38</string>
+    <string name="answer39">Answer 39</string>
+    <string name="answer40">Answer 40</string>
+
+    <string name="question9">Question 9</string>
+    <string name="answer41">Answer 41</string>
+    <string name="answer42">Answer 42</string>
+    <string name="answer43">Answer 43</string>
+    <string name="answer44">Answer 44</string>
+    <string name="answer45">Answer 45</string>
+    <string name="results">Results</string>
+
+    <string name="home">Home</string>
     <string name="type_car">Car travel</string>
     <string name="type_plane">Air travel</string>
     <string name="type_computer">PC use</string>

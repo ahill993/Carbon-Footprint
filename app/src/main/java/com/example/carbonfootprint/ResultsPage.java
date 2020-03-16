@@ -2,8 +2,10 @@ package com.example.carbonfootprint;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -38,8 +40,12 @@ public class ResultsPage extends AppCompatActivity {
         addBar(emissionStats, screenwidth, screenheight);
         addTable(emissionStats, screenwidth, screenheight);
         addTotal(emissionStats);
+    }
 
-
+    public void backToStart(View view)
+    {
+        Intent back = new Intent(this, MainActivity.class);
+        startActivity(back);
     }
 
     private void addPie(Hashtable ht, int screenwidth, int screenheight) {

@@ -36,7 +36,7 @@ public class ChartBuilder {
             Float value = ht.get(key);
             stats.add(new PieEntry(value,getStringResource(key, context)));
         }
-    PieDataSet dset = new PieDataSet(stats,"");
+        PieDataSet dset = new PieDataSet(stats,"");
         dset.setColors(colorset(),context);
         piedata.setDataSet(dset);
 
