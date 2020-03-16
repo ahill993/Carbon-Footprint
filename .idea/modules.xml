@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Carbon-Footprint.iml" filepath="$PROJECT_DIR$/Carbon-Footprint.iml" group="Carbon-Footprint" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Carbon-Footprint/app" />
+      <module fileurl="file://$PROJECT_DIR$/Group Prototype.iml" filepath="$PROJECT_DIR$/Group Prototype.iml" group="Group Prototype" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Group Prototype/app" />
     </modules>
   </component>
 </project>

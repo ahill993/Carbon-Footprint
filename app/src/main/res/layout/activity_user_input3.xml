@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserInput"
+    tools:context=".UserInput3"
     android:background="#000000">
 
     <ScrollView
@@ -23,25 +23,25 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="35dp"
                 android:layout_marginTop="25dp"
-                android:text="@string/travelTitle"
-                android:textColor="@color/yellow"
+                android:text="@string/facilitiesTitle"
+                android:textColor="@color/colorPrimary"
                 android:textSize="24sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginLeft="35dp" />
 
             <TextView
-                android:id="@+id/question1"
+                android:id="@+id/question7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="55dp"
                 android:layout_marginTop="55dp"
-                android:text="@string/question1"
+                android:text="@string/question7"
                 android:textColor="#FFFFFF"
                 android:layout_marginLeft="55dp" />
 
             <RadioGroup
-                android:id="@+id/radioGroup"
+                android:id="@+id/radioGroup7"
                 android:layout_width="327dp"
                 android:layout_height="217dp"
                 android:layout_marginStart="55dp"
@@ -51,57 +51,57 @@
                 android:layout_marginRight="55dp">
 
                 <RadioButton
-                    android:id="@+id/answer"
+                    android:id="@+id/answer31"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer1"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer31"
                     android:textColor="#FFFFFF" />
 
                 <RadioButton
-                    android:id="@+id/answer2"
+                    android:id="@+id/answer32"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer2"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer32"
                     android:textColor="#FFFFFF" />
 
                 <RadioButton
-                    android:id="@+id/answer3"
+                    android:id="@+id/answer33"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer3"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer33"
                     android:textColor="#FFFFFF" />
 
                 <RadioButton
-                    android:id="@+id/answer4"
+                    android:id="@+id/answer34"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer4"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer34"
                     android:textColor="#FFFFFF" />
 
                 <RadioButton
-                    android:id="@+id/answer5"
+                    android:id="@+id/answer35"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer5"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer35"
                     android:textColor="#FFFFFF" />
             </RadioGroup>
 
             <TextView
-                android:id="@+id/question2"
+                android:id="@+id/question8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question2"
-                android:textColor="#FFFFFF"
                 android:layout_marginStart="55dp"
+                android:text="@string/question8"
+                android:textColor="#FFFFFF"
                 android:layout_marginLeft="55dp" />
 
             <RadioGroup
-                android:id="@+id/radioGroup2"
+                android:id="@+id/radioGroup8"
                 android:layout_width="333dp"
                 android:layout_height="212dp"
                 android:layout_marginStart="55dp"
@@ -111,60 +111,60 @@
                 android:layout_marginRight="55dp">
 
                 <RadioButton
-                    android:id="@+id/answer6"
+                    android:id="@+id/answer36"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer6"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer36"
                     android:textColor="#FFFFFF">
 
                 </RadioButton>
 
                 <RadioButton
-                    android:id="@+id/answer7"
+                    android:id="@+id/answer37"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer7"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer37"
                     android:textColor="#FFFFFF" />
 
                 <RadioButton
-                    android:id="@+id/answer8"
+                    android:id="@+id/answer38"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer8"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer38"
                     android:textColor="#FFFFFF" />
 
                 <RadioButton
-                    android:id="@+id/answer9"
+                    android:id="@+id/answer39"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer9"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer39"
                     android:textColor="#FFFFFF" />
 
                 <RadioButton
-                    android:id="@+id/answer10"
+                    android:id="@+id/answer40"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer10"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer40"
                     android:textColor="#FFFFFF" />
 
             </RadioGroup>
 
             <TextView
-                android:id="@+id/question3"
+                android:id="@+id/question9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/question3"
+                android:text="@string/question9"
                 android:textColor="#FFFFFF"
                 android:layout_marginStart="55dp"
                 android:layout_marginLeft="55dp" />
 
             <RadioGroup
-                android:id="@+id/radioGroup3"
+                android:id="@+id/radioGroup9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="55dp"
@@ -173,56 +173,56 @@
                 android:layout_marginBottom="55dp">
 
                 <RadioButton
-                    android:id="@+id/answer11"
+                    android:id="@+id/answer41"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer11"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer41"
                     android:textColor="#FFFFFF" />
 
                 <RadioButton
-                    android:id="@+id/answer12"
+                    android:id="@+id/answer42"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer12"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer42"
                     android:textColor="#FFFFFF" />
 
                 <RadioButton
-                    android:id="@+id/answer13"
+                    android:id="@+id/answer43"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer13"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer43"
                     android:textColor="#FFFFFF" />
 
                 <RadioButton
-                    android:id="@+id/answer14"
+                    android:id="@+id/answer44"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer14"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer44"
                     android:textColor="#FFFFFF" />
 
                 <RadioButton
-                    android:id="@+id/answer15"
+                    android:id="@+id/answer45"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:buttonTint="@color/yellow"
-                    android:text="@string/answer15"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="@string/answer45"
                     android:textColor="#FFFFFF" />
             </RadioGroup>
 
             <Button
-                android:id="@+id/nextButton"
+                android:id="@+id/resultsButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
-                android:layout_marginEnd="70dp"
                 android:layout_marginBottom="70dp"
-                android:backgroundTint="@color/yellow"
-                android:onClick="electric"
-                android:text="@string/next"
+                android:buttonTint="@color/colorPrimary"
+                android:onClick="results"
+                android:text="@string/results"
+                android:layout_marginEnd="70dp"
                 android:layout_marginRight="70dp" />
 
         </LinearLayout>
