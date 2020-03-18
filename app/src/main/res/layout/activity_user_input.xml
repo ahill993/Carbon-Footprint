@@ -38,7 +38,8 @@
                 android:layout_marginLeft="55dp"
                 android:layout_marginTop="40dp"
                 android:text="@string/question1"
-                android:textColor="#FFFFFF" />
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
 
             <RadioGroup
                 android:id="@+id/radioGroup"
@@ -95,10 +96,11 @@
                 android:id="@+id/question2"
                 android:layout_width="310dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginLeft="55dp"
                 android:text="@string/question2"
                 android:textColor="#FFFFFF"
-                android:layout_marginStart="55dp"
-                android:layout_marginLeft="55dp" />
+                android:textStyle="bold" />
 
             <RadioGroup
                 android:id="@+id/radioGroup2"
@@ -158,10 +160,11 @@
                 android:id="@+id/question3"
                 android:layout_width="310dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginLeft="55dp"
                 android:text="@string/question3"
                 android:textColor="#FFFFFF"
-                android:layout_marginStart="55dp"
-                android:layout_marginLeft="55dp" />
+                android:textStyle="bold" />
 
             <RadioGroup
                 android:id="@+id/radioGroup3"
