@@ -50,7 +50,7 @@ public class ResultsPage extends AppCompatActivity {
 
     public void backFacility(View view)
     {
-        Intent back = new Intent(this, Input3.class);
+        Intent back = new Intent(this, MainActivity.class);
         startActivity(back);
     }
 
