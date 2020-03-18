@@ -221,37 +221,33 @@
                     android:textColor="#FFFFFF" />
             </RadioGroup>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="310dp"
                 android:layout_height="200dp"
                 android:layout_marginStart="55dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="55dp"
-                android:layout_marginBottom="55dp"
+                android:layout_marginBottom="15dp"
                 android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/backButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="left"
+                    android:layout_alignParentLeft="true"
                     android:backgroundTint="@color/yellow"
-                    android:onClick="electric"
+                    android:onClick="backHome"
                     android:text="@string/back" />
 
                 <Button
                     android:id="@+id/nextButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="right"
+                    android:layout_alignParentRight="true"
                     android:backgroundTint="@color/yellow"
                     android:onClick="electric"
-                    android:text="@string/next"/>
-
-
-            </LinearLayout>
-
-
+                    android:text="@string/next" />
+            </RelativeLayout>
 
         </LinearLayout>
 

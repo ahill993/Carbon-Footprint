@@ -19,4 +19,10 @@ public class UserInput extends AppCompatActivity {
         Intent next = new Intent(this, userInput2.class);
         startActivity(next);
     }
+
+    public void backHome(View view)
+    {
+        Intent back = new Intent(this, MainActivity.class);
+        startActivity(back);
+    }
 }

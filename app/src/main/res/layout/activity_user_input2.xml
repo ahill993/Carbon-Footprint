@@ -210,17 +210,33 @@
                     android:textColor="#FFFFFF" />
             </RadioGroup>
 
-            <Button
-                android:id="@+id/nextButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginEnd="50dp"
-                android:layout_marginRight="50dp"
-                android:layout_marginBottom="70dp"
-                android:backgroundTint="@color/orange"
-                android:onClick="facilityPage"
-                android:text="@string/next" />
+            <RelativeLayout
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/backButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:backgroundTint="@color/orange"
+                    android:onClick="backTravel"
+                    android:text="@string/back" />
+
+                <Button
+                    android:id="@+id/nextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/orange"
+                    android:onClick="facilityPage"
+                    android:text="@string/next" />
+            </RelativeLayout>
 
         </LinearLayout>
 

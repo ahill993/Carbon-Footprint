@@ -48,6 +48,12 @@ public class ResultsPage extends AppCompatActivity {
         startActivity(back);
     }
 
+    public void backFacility(View view)
+    {
+        Intent back = new Intent(this, Input3.class);
+        startActivity(back);
+    }
+
     private void addPie(Hashtable ht, int screenwidth, int screenheight) {
         PieChart pie = ChartBuilder.buildPieChart(ht,this);
         pie.setMinimumWidth(screenwidth);

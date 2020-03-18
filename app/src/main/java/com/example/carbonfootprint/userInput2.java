@@ -19,4 +19,10 @@ public class userInput2 extends AppCompatActivity {
         Intent facility = new Intent(this, Input3.class);
         startActivity(facility);
     }
+
+    public void backTravel(View view)
+    {
+        Intent back = new Intent(this, UserInput.class);
+        startActivity(back);
+    }
 }

@@ -19,4 +19,10 @@ public class Input3 extends AppCompatActivity {
         Intent result = new Intent(this, ResultsPage.class);
         startActivity(result);
     }
+
+    public void backElectric(View view)
+    {
+        Intent back = new Intent(this, userInput2.class);
+        startActivity(back);
+    }
 }
