@@ -53,4 +53,10 @@ public class UserInput extends AppCompatActivity {
         Intent next = new Intent(this, UserInput2.class);
         startActivity(next);
     }
+
+    public void backHome(View view)
+    {
+        Intent back = new Intent(this, MainActivity.class);
+        startActivity(back);
+    }
 }

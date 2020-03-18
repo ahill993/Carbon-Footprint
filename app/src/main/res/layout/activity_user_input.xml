@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UserInput"
-    android:background="#000000">
+    android:background="#212121">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -221,17 +221,33 @@
                     android:textColor="#FFFFFF" />
             </RadioGroup>
 
-            <Button
-                android:id="@+id/nextButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginEnd="70dp"
-                android:layout_marginBottom="70dp"
-                android:backgroundTint="@color/yellow"
-                android:onClick="electric"
-                android:text="@string/next"
-                android:layout_marginRight="70dp" />
+            <RelativeLayout
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginBottom="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/backButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:backgroundTint="@color/yellow"
+                    android:onClick="backHome"
+                    android:text="@string/back" />
+
+                <Button
+                    android:id="@+id/nextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:backgroundTint="@color/yellow"
+                    android:onClick="electric"
+                    android:text="@string/next" />
+            </RelativeLayout>
 
         </LinearLayout>
 

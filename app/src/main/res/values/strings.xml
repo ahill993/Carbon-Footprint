@@ -79,5 +79,7 @@
     <string name="type_plane">Air travel</string>
     <string name="type_computer">PC use</string>
     <string name="type_train">Rail travel</string>
+    <string name="start">Start</string>
+    <string name="back">Back</string>
 
 </resources>
