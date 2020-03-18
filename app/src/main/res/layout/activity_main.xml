@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/appTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="65dp"
+        android:layout_width="326dp"
+        android:layout_height="98dp"
         android:layout_marginStart="58dp"
         android:layout_marginLeft="58dp"
         android:layout_marginTop="100dp"
@@ -18,8 +18,9 @@
         android:layout_marginRight="59dp"
         android:gravity="center"
         android:text="@string/appTitle"
-        android:textColor="@color/colorAccent"
-        android:textSize="24sp"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -54,7 +55,9 @@
         android:background="@drawable/button_border"
         android:onClick="openSurvey"
         android:text="Start"
-        android:textColor="@color/colorAccent"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appInfo" />
